@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Praktikum 1 - Scene Pertama</title>
+ <script src="https://aframe.io/releases/1.7.1/aframe.min.js"></script>
+</head>
+<body>
+ <a-scene>
+ <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9" 
+ animation="property: rotation; to: 0 405 0; loop: true; dur: 6000; easing: linear"></a-box>
+ <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+ <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5"
+ color="#FFC65D"></a-cylinder>
+ <a-cone position="3 1.2 -5" radius-bottom="0.9" radius-top="0.1" height="1.6"
+ color="#9370DB"></a-cone>
+ <a-torus position= "-3 1.5 -5" radius="0.7" radius-tubular="0.18"  color="#FF8C00" 
+ rotation="0 0 0"> </a-torus>
+ <a-plane position="0 0 -5" rotation="-90 0 0" width="8" height="8"
+ color="#A3B18A"></a-plane>
+ <a-sky color="#87CEEB"></a-sky>
+ <a-text
+   value="Nurul Aisyah - 2309020001" position="0 3 -4" align="center" color="#222222" width="6">
+  </a-text>
+
+ </a-scene>
+</body>
+</html>
